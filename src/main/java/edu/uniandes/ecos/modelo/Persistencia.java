@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * Clase para almacenar en una estructora de datos las variables mas relevantes para 
- * el calculo de una regresion lineal 
+ * el calculo de una integral numerica con el metodo de simpson
  * @author Melga
  *
  */

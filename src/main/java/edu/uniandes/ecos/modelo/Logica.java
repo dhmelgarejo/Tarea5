@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Clase con metodos estaticos auxiliares para calcular varaibles de regresion lineal
+ * Clase con metodos estaticos auxiliares para calcular variables de simpson
  * @author Melga
  *
  */

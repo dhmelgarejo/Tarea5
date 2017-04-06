@@ -14,7 +14,7 @@ import edu.uniandes.ecos.vista.Presentacion;
 
 
 /**
-	* Programa 5 
+	* Programa 5 - Integracion numerica con simpson
 	* ECOS Primer Semestre de 2017
 	*
 	* @author  Daniel Melgarejo
@@ -22,15 +22,8 @@ import edu.uniandes.ecos.vista.Presentacion;
 public class Principal {
 	public static void main(String[] args) {
 		
-		
-//		System.out.println(Logica.calcularGammaNoEntero(4.5, 1));
-//		System.out.println(Logica.calcularSimpson(0, 1.1, 9));
-//		System.out.println(Logica.calcularSimpson(0, 1.1812, 10));
-//		System.out.println(Logica.calcularSimpson(0, 2.750, 30));
-		
-		
-//	    port(Integer.valueOf(System.getenv("PORT")));
-//	    staticFileLocation("/public");
+	    port(Integer.valueOf(System.getenv("PORT")));
+	    staticFileLocation("/public");
 	    
 		Scanner in = new Scanner(System.in);
 		String ruta = "target/classes/public/test1.txt";
@@ -71,27 +64,25 @@ public class Principal {
 		//Impresion de resultados
 		Presentacion.mostrarResultados(datos3);
 		
-//		get("/", (req, res) -> 
-//			"<h2>Expected Values</h2>"+
-//			"<table border='1'><th></th>"+
-//			"<th>VS</th>"+
-//			"<th>S</th>"+
-//			"<th>M</th>"+
-//			"<th>L</th>"+
-//			"<th>VL</th>"+
-//			"<tr><td>LOC/Method</td>"+
-//			"<td>"+datos.getVerySmall()+"</td>"+
-//			"<td>"+datos.getSmall()+"</td>"+
-//			"<td>"+datos.getMedium()+"</td>"+
-//			"<td>"+datos.getLarge()+"</td>"+
-//			"<td>"+datos.getVeryLarge()+"</td>"+
+		get("/", (req, res) -> 
+			"<h2>Expected Values</h2>"+
+			"<table border='1'><th></th>"+
+			"<th>x inicial</th>"+
+			"<th>x final</th>"+
+			"<th>dof</th>"+
+			"<th>p</th>"+
+			"<tr><td>LOC/Method</td>"+
+			"<td>"+datos.getxInicial()+"</td>"+
+			"<td>"+datos.getxFinal()+"</td>"+
+			"<td>"+datos.getDof()+"</td>"+
+			"<td>"+datos.getP()+"</td>"+
 //			"</tr><tr><td>Pgs/Chapter</td>"+
 //			"<td>"+datos2.getVerySmall()+"</td>"+
 //			"<td>"+datos2.getSmall()+"</td>"+
 //			"<td>"+datos2.getMedium()+"</td>"+
 //			"<td>"+datos2.getLarge()+"</td>"+
 //			"<td>"+datos2.getVeryLarge()+"</td>"+
-//			"</tr></table>"
-//		);
+			"</tr></table>"
+		);
 	}
 }

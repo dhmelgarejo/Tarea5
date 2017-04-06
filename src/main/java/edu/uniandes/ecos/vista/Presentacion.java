@@ -11,7 +11,7 @@ public class Presentacion {
 	
 	/**
 	 * Metodo estatico que recibe una instancia de la persistencia de datos y realiza la impresion de las
-	 * operacion entre variables para calcular los rangos de tamaño
+	 * operaciones entre variables para calcular la integracion numerica con metodo de simpson
 	 * @param datos
 	 */
 	public static void mostrarResultados(Persistencia datos){
