@@ -66,22 +66,26 @@ public class Principal {
 		
 		get("/", (req, res) -> 
 			"<h2>Expected Values</h2>"+
-			"<table border='1'><th></th>"+
+			"<table border='1'>"+
 			"<th>x inicial</th>"+
 			"<th>x final</th>"+
 			"<th>dof</th>"+
 			"<th>p</th>"+
-			"<tr><td>LOC/Method</td>"+
+			"<tr>"+
 			"<td>"+datos.getxInicial()+"</td>"+
 			"<td>"+datos.getxFinal()+"</td>"+
 			"<td>"+datos.getDof()+"</td>"+
 			"<td>"+datos.getP()+"</td>"+
-//			"</tr><tr><td>Pgs/Chapter</td>"+
-//			"<td>"+datos2.getVerySmall()+"</td>"+
-//			"<td>"+datos2.getSmall()+"</td>"+
-//			"<td>"+datos2.getMedium()+"</td>"+
-//			"<td>"+datos2.getLarge()+"</td>"+
-//			"<td>"+datos2.getVeryLarge()+"</td>"+
+			"<tr>"+
+			"<td>"+datos2.getxInicial()+"</td>"+
+			"<td>"+datos2.getxFinal()+"</td>"+
+			"<td>"+datos2.getDof()+"</td>"+
+			"<td>"+datos2.getP()+"</td>"+
+			"<tr>"+
+			"<td>"+datos3.getxInicial()+"</td>"+
+			"<td>"+datos3.getxFinal()+"</td>"+
+			"<td>"+datos3.getDof()+"</td>"+
+			"<td>"+datos3.getP()+"</td>"+
 			"</tr></table>"
 		);
 	}
