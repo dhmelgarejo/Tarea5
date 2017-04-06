@@ -3,10 +3,10 @@ Tarea 5 PSP2.1 - Integracion numerica con simpson
 Daniel Melgarejo Rodriguez
 5/4/2017 10:48
 
-Link de github: https://github.com/dhmelgarejo/Tarea4
+Link de github: https://github.com/dhmelgarejo/Tarea5
 
 Cloar el repositorio ejecutando :
-git clone https://github.com/dhmelgarejo/Tarea4.git
+git clone https://github.com/dhmelgarejo/Tarea5.git
 
 El programa fue realizado con JRE 1.8
 
